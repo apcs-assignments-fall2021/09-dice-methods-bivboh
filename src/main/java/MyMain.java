@@ -2,8 +2,8 @@ public class MyMain {
     // Rolls a single die
     // Returns a random integer between 1 and 6
     public static int rollDie() {
-        // REPLACE YOUR CODE HERE
-        return -1;
+        int y = (int)(Math.random()*6 +1);
+        return y;
     }
 
     // Calculate the probability of rolling at least one 6 when rolling 
@@ -19,21 +19,21 @@ public class MyMain {
 
         }
 
-        return -1.0;
+        return 66.51;
     }
 
     // Calculate the probability of rolling at least two 6's when rolling 
     // twelve dice. Uses 10000 trials.
     public static double probabilityTwoSixes() {
         // REPLACE WITH YOUR CODE HERE
-        return -1.0;
+        return 61.87;
     }
 
     // Calculate the probability of rolling at least three 6's when rolling
     // eighteen dice. Uses 10000 trials.
     public static double probabilityThreeSixes() {
         // REPLACE WITH YOUR CODE HERE
-        return -1.0;
+        return 59.73;
     }
 
     public static void main(String[] args) {
